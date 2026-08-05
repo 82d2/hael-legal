@@ -1,12 +1,16 @@
 # Privacy Policy
 
-**hæl** — last updated June 2, 2026
+**hæl** — last updated July 26, 2026
 
 ---
 
 ## What hæl collects
 
-hæl stores fasting history, body weight entries, menstrual cycle dates, streak counts, and user preferences. All data is stored locally on the device using UserDefaults and App Group shared storage. No data is transmitted to any server, cloud service, or third party.
+hæl stores fasting history, body weight entries, menstrual cycle dates, streak counts, and user preferences. All personal data is stored locally on the device using UserDefaults and App Group shared storage. No personal data is transmitted to any server, cloud service, or third party.
+
+## Analytics
+
+hæl uses TelemetryDeck, a privacy-first analytics service, to collect anonymous usage signals such as feature interactions and session counts. TelemetryDeck does not collect personally identifiable information, device identifiers, or any data that can be traced back to individual users. No personal data is transmitted. For more information visit telemetrydeck.com/privacy.
 
 ## HealthKit
 
@@ -26,9 +30,9 @@ hæl may schedule local notifications (morning nudges, fast completion reminders
 
 hæl offers a one-time in-app purchase processed entirely through Apple's StoreKit framework. Purchase verification happens on-device against Apple's signed transaction receipts. No payment information is collected or stored by hæl. Purchase status is cached locally to unlock features.
 
-## No accounts, no server, no tracking
+## No accounts, no server, no advertising
 
-hæl does not require an account. There is no server. There is no analytics SDK. There are no advertising identifiers. There are no third-party SDKs that collect data. The app does not track users across apps or websites.
+hæl does not require an account. There is no server. There are no advertising identifiers. There are no third-party SDKs that collect personal data or track users across apps or websites.
 
 ## Data storage
 
