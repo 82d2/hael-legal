@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**hæl** — last updated July 26, 2026
+**hæl** — last updated September 15, 2026
 
 ---
 
@@ -41,7 +41,7 @@ All data resides on the device in:
 - **UserDefaults** (App Group `group.com.hael.fasting`) — fasting sessions, preferences, cycle dates, weight history, purchase status.
 - **HealthKit** — menstrual flow, body mass, and workout samples (managed by iOS, subject to the user's HealthKit privacy settings).
 
-hæl does not use iCloud sync, CloudKit, or any remote database.
+hæl does not use CloudKit, remote databases, or server-side sync. Small preferences (such as unlock status) may sync between your devices through iCloud Key-Value Storage if iCloud is enabled. All fasting data, health data, and personal information remains on the device and is only included in standard iCloud backups if you have device backups enabled.
 
 ## Data deletion
 
