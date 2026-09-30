@@ -94,6 +94,10 @@ You can export your fasting history as a CSV file from Settings. The file is cre
 
 **Purchase records:** Apple and RevenueCat keep purchase records so you can restore your purchase. To request deletion of your RevenueCat record, contact us at the address below.
 
+## Consumer health data
+
+Residents of Washington, Nevada, Connecticut, and other states with consumer health data laws can read the Consumer Health Data Privacy Policy at hael.app/consumer-health-data.
+
 ## Children
 
 hæl is not directed at children under 13 and does not knowingly collect data from children.
