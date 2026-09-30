@@ -20,7 +20,7 @@ In short: your fasting, cycle, and weight data stays with you, on your devices, 
 
 **On your device.** All of the above is stored in UserDefaults and in App Group shared storage (`group.app.hael.fasting`), which lets the widget read the same data.
 
-**In your iCloud account.** If iCloud is enabled, hæl syncs your fasting history, weight entries, last period start date, and cycle length between your own devices using iCloud Key-Value Storage. This data lives in your iCloud account under Apple's terms. KI-GEN Studios LLC cannot access it. hæl does not use CloudKit or any server of its own.
+**In your iCloud account.** If iCloud is enabled, hæl syncs your fasting history between your own devices using iCloud Key-Value Storage. Weight entries, last period start date, and cycle length sync the same way unless you connect Apple Health for them. Once you do, hæl stops copying them to iCloud, removes what it stored there, and Apple Health keeps them in sync instead. This data lives in your iCloud account under Apple's terms. KI-GEN Studios LLC cannot access it. hæl does not use CloudKit or any server of its own.
 
 **Between your iPhone and Apple Watch.** Fast status, streak, and cycle phase are sent directly from your iPhone to your paired Apple Watch using Apple's WatchConnectivity framework.
 
@@ -49,7 +49,6 @@ hæl uses TelemetryDeck to understand how the app is used. It sends events such 
 
 - days since the app was last opened
 - consecutive-day open streak
-- whether a fast is currently active
 - whether the full experience has been purchased
 
 TelemetryDeck identifies an install only by an anonymized, hashed identifier. It does not receive your name, email, fasting history, weight, cycle information, or any Apple Health data. See telemetrydeck.com/privacy.

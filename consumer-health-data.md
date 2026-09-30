@@ -30,8 +30,6 @@ On your device, in your own iCloud account if iCloud is enabled, on your paired 
 
 hæl does not sell consumer health data. Your cycle, weight, fasting, and heart rate records are not shared with anyone, including the analytics provider (TelemetryDeck) and the purchase provider (RevenueCat) named in the main privacy policy.
 
-One limited signal is being removed: hæl 4.0 sends TelemetryDeck a yes/no flag for whether a fast is in progress when the app opens, with no other health information attached. The next update of hæl stops sending it.
-
 hæl does not collect location data and does not use geofencing.
 
 ## Consent
