@@ -60,11 +60,12 @@ The full experience is a one-time purchase processed by Apple. hæl never sees o
 
 hæl uses RevenueCat to verify purchases and restore them across devices. RevenueCat receives:
 
-- an anonymous app user ID that RevenueCat generates, not linked to your name or email
+- a random app user ID that RevenueCat generates, not linked to your name, email, or Apple ID
 - your purchase and transaction history for hæl
-- basic device and app information, such as device model, operating system version, app version, country or region, and IP address
+- Apple's identifier for vendor, a device ID that is specific to apps from KI-GEN Studios LLC and cannot be used to track you across other companies' apps
+- technical details: device model, operating system version, app version, App Store country, and preferred language
 
-RevenueCat uses this only to verify purchases for hæl. It does not receive your health data. See revenuecat.com/privacy.
+hæl never gives RevenueCat your name, email, or any other personal detail. RevenueCat uses this data only to verify purchases for hæl and does not receive your health data. See revenuecat.com/privacy.
 
 ## Notifications
 
