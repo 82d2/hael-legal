@@ -92,7 +92,7 @@ You can export your fasting history as a CSV file from Settings. The file is cre
 
 **By deleting the app:** this removes on-device data. Data synced to iCloud Key-Value Storage may remain in your iCloud account, so use "delete all data" first if you want it removed everywhere.
 
-**Purchase records:** Apple and RevenueCat keep purchase records so you can restore your purchase. To request deletion of your RevenueCat record, contact us at the address below.
+**Purchase records:** Apple and RevenueCat keep purchase records so you can restore your purchase. To request deletion of your RevenueCat record, email hello@hael.app with the Apple order ID from your purchase receipt.
 
 ## Consumer health data
 
