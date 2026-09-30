@@ -38,7 +38,7 @@ hæl may be updated, modified, or discontinued at any time without notice. Conti
 
 ## Governing law
 
-These terms are governed by the laws of the United States. Any disputes will be resolved in the courts of the jurisdiction where KI-GEN Studios LLC is organized.
+These terms are governed by the laws of the State of Georgia, United States, without regard to its conflict-of-law rules. Any disputes will be resolved in the state or federal courts located in Georgia.
 
 ## Changes to these terms
 
