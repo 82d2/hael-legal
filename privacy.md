@@ -4,7 +4,7 @@
 
 hæl is made by KI-GEN Studios LLC. This policy describes what the app stores, where it goes, and who else handles any of it.
 
-In short: your fasting, cycle, and weight data stays with you, on your devices, in your own iCloud account, and in Apple Health. Two outside services are involved. TelemetryDeck receives anonymous usage signals, and RevenueCat verifies purchases. Neither receives your health data.
+In short: your fasting, cycle, and weight data stays with you, on your devices, in your own iCloud account, and in Apple Health. Two outside services are involved. TelemetryDeck receives anonymous usage signals, and RevenueCat verifies purchases. Neither receives your fasting, cycle, or weight records, or anything from Apple Health.
 
 ---
 
@@ -52,7 +52,7 @@ hæl uses TelemetryDeck to understand how the app is used. It sends events such 
 - whether a fast is currently active
 - whether the full experience has been purchased
 
-TelemetryDeck identifies an install only by an anonymized, hashed identifier. It does not receive your name, email, health data, weight, or cycle information. See telemetrydeck.com/privacy.
+TelemetryDeck identifies an install only by an anonymized, hashed identifier. It does not receive your name, email, fasting history, weight, cycle information, or any Apple Health data. See telemetrydeck.com/privacy.
 
 ## Purchases (Apple and RevenueCat)
 
@@ -65,7 +65,7 @@ hæl uses RevenueCat to verify purchases and restore them across devices. Revenu
 - Apple's identifier for vendor, a device ID that is specific to apps from KI-GEN Studios LLC and cannot be used to track you across other companies' apps
 - technical details: device model, operating system version, app version, App Store country, and preferred language
 
-hæl never gives RevenueCat your name, email, or any other personal detail. RevenueCat uses this data only to verify purchases for hæl and does not receive your health data. See revenuecat.com/privacy.
+hæl never gives RevenueCat your name, email, or any other personal detail. RevenueCat uses this data only to verify purchases for hæl. It does not receive your fasting, cycle, or weight records, or any Apple Health data. See revenuecat.com/privacy.
 
 ## Notifications
 
