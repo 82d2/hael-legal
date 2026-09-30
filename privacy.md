@@ -1,51 +1,97 @@
 # Privacy Policy
 
-**hæl** — last updated September 15, 2026
+**hæl** — last updated September 30, 2026
+
+hæl is made by KI-GEN Studios LLC. This policy describes what the app stores, where it goes, and who else handles any of it.
+
+In short: your fasting, cycle, and weight data stays with you, on your devices, in your own iCloud account, and in Apple Health. Two outside services are involved. TelemetryDeck receives anonymous usage signals, and RevenueCat verifies purchases. Neither receives your health data.
 
 ---
 
-## What hæl collects
+## What hæl stores
 
-hæl stores fasting history, body weight entries, menstrual cycle dates, streak counts, and user preferences. All personal data is stored locally on the device using UserDefaults and App Group shared storage. No personal data is transmitted to any server, cloud service, or third party.
+- Fasting history (start and end times, target and actual duration, completion)
+- Body weight entries
+- Menstrual cycle information (last period start date, cycle length)
+- Streaks, preferences, and settings
+- Whether the full experience has been purchased
 
-## Analytics
+## Where it is stored
 
-hæl uses TelemetryDeck, a privacy-first analytics service, to collect anonymous usage signals such as feature interactions and session counts. TelemetryDeck does not collect personally identifiable information, device identifiers, or any data that can be traced back to individual users. No personal data is transmitted. For more information visit telemetrydeck.com/privacy.
+**On your device.** All of the above is stored in UserDefaults and in App Group shared storage (`group.app.hael.fasting`), which lets the widget read the same data.
 
-## HealthKit
+**In your iCloud account.** If iCloud is enabled, hæl syncs your fasting history, weight entries, last period start date, and cycle length between your own devices using iCloud Key-Value Storage. This data lives in your iCloud account under Apple's terms. KI-GEN Studios LLC cannot access it. hæl does not use CloudKit or any server of its own.
 
-With permission, hæl reads and writes the following HealthKit data types:
+**Between your iPhone and Apple Watch.** Fast status, streak, and cycle phase are sent directly from your iPhone to your paired Apple Watch using Apple's WatchConnectivity framework.
 
-- **Menstrual flow** — used to determine cycle phase and provide cycle-aware fasting context.
-- **Body mass** — used to track weight entries and surface trends in the body ledger.
-- **Workouts** — used to log completed fasts as mindfulness sessions.
+## Apple Health (HealthKit)
 
-HealthKit data is accessed only when the user grants permission through the standard iOS authorization prompt. hæl does not access HealthKit data for advertising, marketing, or any purpose beyond the core functionality described above. HealthKit data is never shared with third parties.
+hæl uses HealthKit only with your permission, granted through the standard iOS prompt. You can change these permissions at any time in Settings > Health > Data Access & Devices.
+
+hæl **reads**:
+
+- **Menstrual flow**, to determine your cycle phase
+- **Body mass**, to show weight trends in the body ledger
+- **Resting heart rate**, for context in the weekly letter
+
+hæl **writes**:
+
+- **Menstrual flow**, when you record a period start in hæl
+- **Body mass**, when you log a weight in hæl
+- **Workouts**, recording each completed fast as a mind and body session
+- **Dietary energy**, a zero-calorie entry marking each completed fasting window
+
+HealthKit data is never sent to KI-GEN Studios LLC, TelemetryDeck, RevenueCat, or anyone else, and it is never used for advertising or marketing.
+
+## Analytics (TelemetryDeck)
+
+hæl uses TelemetryDeck to understand how the app is used. It sends events such as "session started" or "share completed", with a few details attached:
+
+- days since the app was last opened
+- consecutive-day open streak
+- whether a fast is currently active
+- whether the full experience has been purchased
+
+TelemetryDeck identifies an install only by an anonymized, hashed identifier. It does not receive your name, email, health data, weight, or cycle information. See telemetrydeck.com/privacy.
+
+## Purchases (Apple and RevenueCat)
+
+The full experience is a one-time purchase processed by Apple. hæl never sees or stores your payment information.
+
+hæl uses RevenueCat to verify purchases and restore them across devices. RevenueCat receives:
+
+- an anonymous app user ID that RevenueCat generates, not linked to your name or email
+- your purchase and transaction history for hæl
+- basic device and app information, such as device model, operating system version, app version, country or region, and IP address
+
+RevenueCat uses this only to verify purchases for hæl. It does not receive your health data. See revenuecat.com/privacy.
 
 ## Notifications
 
-hæl may schedule local notifications (morning nudges, fast completion reminders) if the user enables them. Notifications are scheduled entirely on-device. No notification tokens or identifiers are sent to any server.
+If you turn on notifications, hæl schedules them on the device. No notification tokens are sent to any server.
 
-## Purchases
+## Siri and Shortcuts
 
-hæl offers a one-time in-app purchase processed entirely through Apple's StoreKit framework. Purchase verification happens on-device against Apple's signed transaction receipts. No payment information is collected or stored by hæl. Purchase status is cached locally to unlock features.
+hæl offers Siri Shortcuts to begin a fast and check its progress. Siri and Shortcuts requests are handled by Apple under Apple's privacy policy. hæl does not receive that data.
 
-## No accounts, no server, no advertising
+## What hæl does not do
 
-hæl does not require an account. There is no server. There are no advertising identifiers. There are no third-party SDKs that collect personal data or track users across apps or websites.
+- No accounts or logins
+- No advertising and no advertising identifiers
+- No tracking across other apps or websites
+- No selling or sharing of personal data
 
-## Data storage
+## Exporting your data
 
-All data resides on the device in:
+You can export your fasting history as a CSV file from Settings. The file is created on your device and goes only where you choose to send it.
 
-- **UserDefaults** (App Group `group.com.hael.fasting`) — fasting sessions, preferences, cycle dates, weight history, purchase status.
-- **HealthKit** — menstrual flow, body mass, and workout samples (managed by iOS, subject to the user's HealthKit privacy settings).
+## Deleting your data
 
-hæl does not use CloudKit, remote databases, or server-side sync. Small preferences (such as unlock status) may sync between your devices through iCloud Key-Value Storage if iCloud is enabled. All fasting data, health data, and personal information remains on the device and is only included in standard iCloud backups if you have device backups enabled.
+**In the app:** Settings > delete all data. This erases your fasting history, cycle data, weight entries, and preferences from the device and from iCloud Key-Value Storage. It also deletes the weight, workout, and dietary energy entries hæl wrote to Apple Health. Period starts recorded in Apple Health are kept, because they may be part of your wider cycle history. You can remove them in the Health app. Health data written by other apps is never affected.
 
-## Data deletion
+**By deleting the app:** this removes on-device data. Data synced to iCloud Key-Value Storage may remain in your iCloud account, so use "delete all data" first if you want it removed everywhere.
 
-Deleting the app removes all locally stored data. HealthKit data persists in the Health app and can be managed through iOS Settings > Health > Data Access & Devices.
+**Purchase records:** Apple and RevenueCat keep purchase records so you can restore your purchase. To request deletion of your RevenueCat record, contact us at the address below.
 
 ## Children
 
@@ -53,8 +99,8 @@ hæl is not directed at children under 13 and does not knowingly collect data fr
 
 ## Changes to this policy
 
-If this policy changes, the updated version will be published at this URL with a revised date. Continued use of the app after changes constitutes acceptance.
+If this policy changes, the updated version will be published at this URL with a revised date.
 
 ## Contact
 
-For questions about this policy, contact: **hello@ki-gen.studio**
+Questions about this policy or requests about your data: **hello@ki-gen.studio**
