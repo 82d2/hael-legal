@@ -1,6 +1,6 @@
 # Consumer Health Data Privacy Policy
 
-**hæl** — last updated September 30, 2026
+**hæl** — last updated October 1, 2026
 
 ---
 
