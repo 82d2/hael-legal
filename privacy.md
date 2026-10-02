@@ -13,6 +13,7 @@ In short: your fasting, cycle, and weight data stays with you, on your devices, 
 - Fasting history (start and end times, target and actual duration, completion)
 - Body weight entries
 - Menstrual cycle information (last period start date, cycle length)
+- Rest days you mark
 - Streaks, preferences, and settings
 - Whether the full experience has been purchased
 
@@ -22,7 +23,7 @@ In short: your fasting, cycle, and weight data stays with you, on your devices, 
 
 **In your iCloud account.** If iCloud is enabled, hæl syncs your fasting history between your own devices using iCloud Key-Value Storage. Weight entries, last period start date, and cycle length sync the same way unless you connect Apple Health for them. Once you do, hæl stops copying them to iCloud, removes what it stored there, and Apple Health keeps them in sync instead. This data lives in your iCloud account under Apple's terms. KI-GEN Studios LLC cannot access it. hæl does not use CloudKit or any server of its own.
 
-**Between your iPhone and Apple Watch.** Fast status, streak, and cycle phase are sent directly from your iPhone to your paired Apple Watch using Apple's WatchConnectivity framework.
+**Between your iPhone and Apple Watch.** The current fast, streak, total fasts, suggested duration, cycle day and phase, and whether the full experience has been purchased are sent directly from your iPhone to your paired Apple Watch using Apple's WatchConnectivity framework.
 
 ## Apple Health (HealthKit)
 
@@ -43,6 +44,8 @@ hæl **writes**:
 
 From hæl 4.2, fasts are recorded in Apple Health only if you turn on "record fasts" in Settings > Apple Health. It is off by default. Earlier versions record every completed fast once Apple Health access is granted.
 
+When you edit or delete a weight in hæl, or correct a period date by a few days, hæl replaces or removes the entry it wrote to Apple Health instead of leaving the old one. Entries written by other apps are never changed.
+
 HealthKit data is never sent to KI-GEN Studios LLC, TelemetryDeck, RevenueCat, or anyone else, and it is never used for advertising or marketing.
 
 ## Analytics (TelemetryDeck)
@@ -52,6 +55,7 @@ hæl uses TelemetryDeck to understand how the app is used. It sends events such 
 - days since the app was last opened
 - consecutive-day open streak
 - whether the full experience has been purchased
+- for a share, which app it was shared to (for example, Messages)
 
 TelemetryDeck identifies an install only by an anonymized, hashed identifier. It does not receive your name, email, fasting history, weight, cycle information, or any Apple Health data. See telemetrydeck.com/privacy.
 
