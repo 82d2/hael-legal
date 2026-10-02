@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**hæl** — last updated October 1, 2026
+**hæl** — last updated October 2, 2026
 
 hæl is made by KI-GEN Studios LLC. This policy describes what the app stores, where it goes, and who else handles any of it.
 
@@ -38,8 +38,10 @@ hæl **writes**:
 
 - **Menstrual flow**, when you record a period start in hæl
 - **Body mass**, when you log a weight in hæl
-- **Workouts**, recording each completed fast as a mind and body session
-- **Dietary energy**, a zero-calorie entry marking each completed fasting window
+- **Workouts**, recording a completed fast as a mind and body session
+- **Dietary energy**, a zero-calorie entry marking a completed fasting window
+
+From hæl 4.2, fasts are recorded in Apple Health only if you turn on "record fasts" in Settings > Apple Health. It is off by default. Earlier versions record every completed fast once Apple Health access is granted.
 
 HealthKit data is never sent to KI-GEN Studios LLC, TelemetryDeck, RevenueCat, or anyone else, and it is never used for advertising or marketing.
 
@@ -83,7 +85,7 @@ hæl offers Siri Shortcuts to begin a fast and check its progress. Siri and Shor
 
 ## Exporting your data
 
-You can export your fasting history as a CSV file from Settings. The file is created on your device and goes only where you choose to send it.
+You can export your fasting history as a CSV file, or a backup of your records as a JSON file, from Settings. The file is created on your device and goes only where you choose to send it.
 
 ## Deleting your data
 
