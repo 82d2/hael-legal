@@ -1,6 +1,6 @@
 # Consumer Health Data Privacy Policy
 
-**hæl** — last updated October 1, 2026
+**hæl** — last updated October 10, 2026
 
 ---
 
@@ -8,8 +8,10 @@ This policy is for residents of Washington, Nevada, Connecticut, and other state
 
 ## Consumer health data hæl processes
 
-- Menstrual cycle information: period start dates, cycle length, and the cycle phase calculated from them
-- Body weight entries
+- Menstrual cycle information: period start dates (a history of up to 24), cycle length, and the cycle phase calculated from them
+- Body weight entries, and every weight reading behind them (each number you type, and each sample read from Apple Health)
+- Your usual weight for each day of your cycle, calculated on the device from your own entries, used to show where your body usually carries water
+- Optional profile details you give: height, and gender
 - Fasting history: start and end times, durations, and completion
 - Resting heart rate, read from Apple Health
 
@@ -24,7 +26,7 @@ Only to provide the features you use in hæl: tracking fasts, showing cycle-awar
 
 ## Where it is kept
 
-On your device, in your own iCloud account if iCloud is enabled, on your paired Apple Watch, and in Apple Health. KI-GEN Studios LLC does not operate a server that receives it and cannot access it.
+On your device, in your own iCloud account if iCloud is enabled, on your paired Apple Watch, and in Apple Health. Weight readings, period history, and anything calculated from them stay on your device only. KI-GEN Studios LLC does not operate a server that receives it and cannot access it.
 
 ## Sharing and sale
 
