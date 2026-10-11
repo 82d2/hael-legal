@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**hæl** — last updated October 10, 2026
+**hæl** — last updated October 11, 2026
 
 hæl is made by KI-GEN Studios LLC. This policy describes what the app stores, where it goes, and who else handles any of it.
 
