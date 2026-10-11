@@ -40,12 +40,17 @@ hæl **writes**:
 
 - **Menstrual flow**, when you record a period start in hæl
 - **Body mass**, when you log a weight in hæl
+
+When you connect Apple Health, hæl also writes the period starts and weights you already recorded in hæl, but only where Apple Health does not already hold one, so nothing is duplicated.
+
+hæl also writes these, when "record fasts" is on:
+
 - **Workouts**, recording a completed fast as a mind and body session
 - **Dietary energy**, a zero-calorie entry marking a completed fasting window
 
 From hæl 4.2, fasts are recorded in Apple Health only if you turn on "record fasts" in Settings > Apple Health. It is off by default. Earlier versions record every completed fast once Apple Health access is granted.
 
-When you edit or delete a weight in hæl, or correct a period date by a few days, hæl replaces or removes the entry it wrote to Apple Health instead of leaving the old one. Entries written by other apps are never changed.
+When you edit or delete a weight or a past fast in hæl, or correct a period date, hæl replaces or removes the entry it wrote to Apple Health instead of leaving the old one. Entries written by other apps are never changed.
 
 HealthKit data is never sent to KI-GEN Studios LLC, TelemetryDeck, RevenueCat, or anyone else, and it is never used for advertising or marketing.
 
