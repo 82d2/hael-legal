@@ -63,7 +63,7 @@ hæl uses TelemetryDeck to understand how the app is used. It sends events such 
 - whether the full experience has been purchased
 - for a share, which app it was shared to (for example, Messages)
 
-TelemetryDeck also receives purchase events for hæl from RevenueCat (see below): for example, that the full experience was bought, restored, transferred, or refunded, with the product, its price, and the App Store country. These arrive under the same hashed identifier as the usage signals, so we can see how many people who use the app go on to buy it. They are sent by RevenueCat's servers, not by the app.
+TelemetryDeck also receives purchase events for hæl from RevenueCat (see below): for example, that the full experience was bought, restored, transferred, or refunded. Each event carries the product, its price and currency, the App Store country, Apple's transaction ID, RevenueCat's random app user ID, and whether the device has been asked for tracking permission (hæl never asks). These arrive under the same hashed identifier as the usage signals, so we can see how many people who use the app go on to buy it. They are sent by RevenueCat's servers, not by the app.
 
 TelemetryDeck identifies an install only by an anonymized, hashed identifier. It does not receive your name, email, fasting history, weight, cycle information, or any Apple Health data. See telemetrydeck.com/privacy.
 
