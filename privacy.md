@@ -1,10 +1,10 @@
 # Privacy Policy
 
-**hæl** — last updated October 11, 2026
+**hæl** — last updated October 13, 2026
 
 hæl is made by KI-GEN Studios LLC. This policy describes what the app stores, where it goes, and who else handles any of it.
 
-In short: your fasting, cycle, and weight data stays with you, on your devices, in your own iCloud account, and in Apple Health. Two outside services are involved. TelemetryDeck receives anonymous usage signals, and RevenueCat verifies purchases. Neither receives your fasting, cycle, or weight records, or anything from Apple Health.
+In short: your fasting, cycle, and weight data stays with you, on your devices, in your own iCloud account, and in Apple Health. Two outside services are involved. TelemetryDeck receives anonymous usage signals, and RevenueCat verifies purchases and passes a record of each purchase to TelemetryDeck under the same anonymous identifier. Neither receives your fasting, cycle, or weight records, or anything from Apple Health.
 
 ---
 
@@ -63,6 +63,8 @@ hæl uses TelemetryDeck to understand how the app is used. It sends events such 
 - whether the full experience has been purchased
 - for a share, which app it was shared to (for example, Messages)
 
+TelemetryDeck also receives purchase events for hæl from RevenueCat (see below): for example, that the full experience was bought, restored, transferred, or refunded, with the product, its price, and the App Store country. These arrive under the same hashed identifier as the usage signals, so we can see how many people who use the app go on to buy it. They are sent by RevenueCat's servers, not by the app.
+
 TelemetryDeck identifies an install only by an anonymized, hashed identifier. It does not receive your name, email, fasting history, weight, cycle information, or any Apple Health data. See telemetrydeck.com/privacy.
 
 ## Purchases (Apple and RevenueCat)
@@ -75,10 +77,11 @@ hæl uses RevenueCat to verify purchases and restore them across devices. Revenu
 - your purchase and transaction history for hæl
 - Apple's identifier for vendor, a device ID that is specific to apps from KI-GEN Studios LLC and cannot be used to track you across other companies' apps
 - technical details: device model, operating system version, app version, App Store country, and preferred language
+- TelemetryDeck's hashed identifier for this install and hæl's TelemetryDeck app ID, so RevenueCat can pass purchase events to TelemetryDeck (see Analytics above)
 
 hæl also checks your purchase on the device itself, by asking Apple's StoreKit whether this Apple ID owns the full experience. That check makes no network request. Once after updating to hæl 4.3, and again if the device holds a purchase RevenueCat has no record of (for example one made before hæl used RevenueCat), hæl asks Apple to send the device's App Store transactions for hæl to RevenueCat, so a purchase can be verified and restored. Settings shows RevenueCat's random app user ID as a support ID, so you can include it if you write to us about a purchase. It is not sent anywhere by showing it.
 
-hæl never gives RevenueCat your name, email, or any other personal detail. RevenueCat uses this data only to verify purchases for hæl. It does not receive your fasting, cycle, or weight records, or any Apple Health data. See revenuecat.com/privacy.
+hæl never gives RevenueCat your name, email, or any other personal detail. RevenueCat uses this data only to verify purchases for hæl and to pass purchase events to TelemetryDeck as described above. It does not receive your fasting, cycle, or weight records, or any Apple Health data. See revenuecat.com/privacy.
 
 ## Support links
 
