@@ -78,6 +78,7 @@ hæl uses RevenueCat to verify purchases and restore them across devices. Revenu
 - Apple's identifier for vendor, a device ID that is specific to apps from KI-GEN Studios LLC and cannot be used to track you across other companies' apps
 - technical details: device model, operating system version, app version, App Store country, and preferred language
 - TelemetryDeck's hashed identifier for this install and hæl's TelemetryDeck app ID, so RevenueCat can pass purchase events to TelemetryDeck (see Analytics above)
+- when hæl's purchase page is shown: the time, a session ID, and which offer was on it, under the same random app user ID, so we can see how often the page is seen against how often the full experience is bought (from hæl 4.4.1)
 
 hæl also checks your purchase on the device itself, by asking Apple's StoreKit whether this Apple ID owns the full experience. That check makes no network request. Once after updating to hæl 4.3, and again if the device holds a purchase RevenueCat has no record of (for example one made before hæl used RevenueCat), hæl asks Apple to send the device's App Store transactions for hæl to RevenueCat, so a purchase can be verified and restored. Settings shows RevenueCat's random app user ID as a support ID, so you can include it if you write to us about a purchase. It is not sent anywhere by showing it.
 
