@@ -24,6 +24,8 @@ Fasting carries health risks. Consult a qualified healthcare provider before beg
 
 "The full witness" is a one-time, non-consumable in-app purchase that unlocks additional features. It is tied to your Apple ID and can be restored on other devices signed in to the same account. Purchases are processed by Apple, and refunds are handled by Apple under its refund policy.
 
+From hæl 4.5, the full witness may be offered free for fourteen days, once per Apple ID. You take it as a free, one-time in-app purchase through Apple: nothing is charged, then or later, and nothing renews. The fourteen days are counted from that purchase. When they end, the features of the full witness close unless you buy it; your fasts, weights, rest days and cycle records stay on your device, as before.
+
 ## Intellectual property
 
 All content in hæl, including text, prose, design, illustrations, and software, is the property of KI-GEN Studios LLC. You may not reproduce, distribute, or create derivative works from it without written permission.
