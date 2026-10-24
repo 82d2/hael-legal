@@ -1,6 +1,6 @@
 # Terms of Use
 
-**hæl** — last updated September 30, 2026
+**hæl** — last updated October 24, 2026
 
 ---
 
