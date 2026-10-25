@@ -63,6 +63,7 @@ hæl uses TelemetryDeck to understand how the app is used. It sends events such 
 - whether the full experience has been purchased
 - for a share, which app it was shared to (for example, Messages)
 - when the free fourteen days begin, which page they were taken from: the last page of onboarding, or the page shown once after an update (from hæl 4.5)
+- when the free fourteen days don't begin, which page they were tried from, and whether Apple's purchase sheet was closed or the purchase failed; for a failure, Apple's or RevenueCat's error number, never the error's message (from hæl 4.5.1)
 
 TelemetryDeck also receives purchase events for hæl from RevenueCat (see below): for example, that the full experience was bought, restored, transferred, or refunded. Each event carries the product, its price and currency, the App Store country, Apple's transaction ID, RevenueCat's random app user ID, and whether the device has been asked for tracking permission (hæl never asks). These arrive under the same hashed identifier as the usage signals, so we can see how many people who use the app go on to buy it. They are sent by RevenueCat's servers, not by the app.
 
