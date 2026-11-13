@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**hæl** — last updated October 27, 2026
+**hæl** — last updated November 13, 2026
 
 hæl is made by KI-GEN Studios LLC. This policy describes what the app stores, where it goes, and who else handles any of it.
 
@@ -66,14 +66,17 @@ hæl uses TelemetryDeck to understand how the app is used. It sends events such 
 - when that page is shown, whether it is the first showing or the second (from hæl 4.5.1)
 - which pages of the first-run introduction were reached, by name, once each (from hæl 4.5.1)
 - when the free fourteen days don't begin, which page they were tried from, and whether Apple's purchase sheet was closed or the purchase failed; for a failure, Apple's or RevenueCat's error number, never the error's message (from hæl 4.5.1)
+- when hæl asks whether it may send notes, that the question was shown, and whether notes were allowed, refused, or put off for later (from hæl 4.5.3)
+- from hæl 5.0: that the letters were opened; which kind of Monday letter was opened (the full letter, the first letter given whole, or the shorter letter); and, for the card that shares the hour of a fast, that it was opened or shared, and whether it was offered after a screenshot or when the fast came full circle. hæl learns that a screenshot was taken only from iOS's notice, never reads the screenshot, and sends no hours or names with these events
+- from hæl 5.0, the purchase page can also be the one shown after the first fast of twelve hours or more, or the morning before the fourteen days close
 
-TelemetryDeck also receives purchase events for hæl from RevenueCat (see below): for example, that the full experience was bought, restored, transferred, or refunded. Each event carries the product, its price and currency, the App Store country, Apple's transaction ID, RevenueCat's random app user ID, and whether the device has been asked for tracking permission (hæl never asks). These arrive under the same hashed identifier as the usage signals, so we can see how many people who use the app go on to buy it. They are sent by RevenueCat's servers, not by the app.
+TelemetryDeck also receives purchase events for hæl from RevenueCat (see below): for example, that the full experience was bought, restored, transferred, or refunded, and from hæl 5.0 that a subscription or its free trial started, renewed, was cancelled, or ended. Each event carries the product, its price and currency, the App Store country, Apple's transaction ID, RevenueCat's random app user ID, and whether the device has been asked for tracking permission (hæl never asks). These arrive under the same hashed identifier as the usage signals, so we can see how many people who use the app go on to buy it. They are sent by RevenueCat's servers, not by the app.
 
 TelemetryDeck identifies an install only by an anonymized, hashed identifier. It does not receive your name, email, fasting history, weight, cycle information, or any Apple Health data. See telemetrydeck.com/privacy.
 
 ## Purchases (Apple and RevenueCat)
 
-The full experience is a one-time purchase processed by Apple. hæl never sees or stores your payment information.
+From hæl 5.0 the full experience is a yearly or monthly subscription, or a one-time purchase offered in settings; earlier versions sold it as a one-time purchase only. Either way it is bought through Apple. hæl never sees or stores your payment information.
 
 hæl uses RevenueCat to verify purchases and restore them across devices. RevenueCat receives:
 
@@ -82,8 +85,8 @@ hæl uses RevenueCat to verify purchases and restore them across devices. Revenu
 - Apple's identifier for vendor, a device ID that is specific to apps from KI-GEN Studios LLC and cannot be used to track you across other companies' apps
 - technical details: device model, operating system version, app version, App Store country, and preferred language
 - TelemetryDeck's hashed identifier for this install and hæl's TelemetryDeck app ID, so RevenueCat can pass purchase events to TelemetryDeck (see Analytics above)
-- when hæl's purchase page is shown: the time, a session ID, and which offer was on it, under the same random app user ID, so we can see how often the page is seen against how often the full experience is bought (from hæl 4.4.1); from hæl 4.5, also which page it was (onboarding's last page, the page shown once after an update, the purchase page, or the letter at the end of the fourteen days); from hæl 4.5.1, also that page shown again a week later
-- if you take the free fourteen days: that free purchase, and which page you took it from (onboarding or the page shown once after an update), as a label on the same random app user ID (from hæl 4.5); from hæl 4.5.1 the page can also be the purchase page or the page shown again a week later, and a second label holds the day the fourteen days began
+- when hæl's purchase page is shown: the time, a session ID, and which offer was on it, under the same random app user ID, so we can see how often the page is seen against how often the full experience is bought (from hæl 4.4.1); from hæl 4.5, also which page it was (onboarding's last page, the page shown once after an update, the purchase page, or the letter at the end of the fourteen days); from hæl 4.5.1, also that page shown again a week later; from hæl 5.0, also the page shown after the first fast of twelve hours or more, the morning before the fourteen days close, and the page in settings that offers the one-time purchase
+- if you take the free fourteen days: that free purchase, and which page you took it from (onboarding or the page shown once after an update), as a label on the same random app user ID (from hæl 4.5); from hæl 4.5.1 the page can also be the purchase page or the page shown again a week later, and a second label holds the day the fourteen days began. From hæl 5.0 the fourteen days are the yearly subscription's free trial, and the same labels hold the page it began from (which can also be the page after the first fast of twelve hours or more) and the day it began
 
 hæl also checks your purchase on the device itself, by asking Apple's StoreKit whether this Apple ID owns the full experience. That check makes no network request. Once after updating to hæl 4.3, and again if the device holds a purchase RevenueCat has no record of (for example one made before hæl used RevenueCat), hæl asks Apple to send the device's App Store transactions for hæl to RevenueCat, so a purchase can be verified and restored. Settings shows RevenueCat's random app user ID as a support ID, so you can include it if you write to us about a purchase. It is not sent anywhere by showing it.
 
