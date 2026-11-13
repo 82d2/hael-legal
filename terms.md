@@ -1,6 +1,6 @@
 # Terms of Use
 
-**hæl** — last updated October 24, 2026
+**hæl** — last updated November 13, 2026
 
 ---
 
@@ -20,11 +20,25 @@ hæl is not a medical device, diagnostic tool, or treatment program. It does not
 
 Fasting carries health risks. Consult a qualified healthcare provider before beginning any fasting practice, especially if you are pregnant, nursing, have a history of disordered eating, or take medication that affects blood sugar. Fasts longer than 48 hours should be medically supervised.
 
-## In-app purchase
+## Purchases and subscriptions
 
-"The full witness" is a one-time, non-consumable in-app purchase that unlocks additional features. It is tied to your Apple ID and can be restored on other devices signed in to the same account. Purchases are processed by Apple, and refunds are handled by Apple under its refund policy.
+"The full witness" unlocks additional features in hæl. The fasting timer, the log, rest days and the daily greeting are free and stay free.
 
-From hæl 4.5, the full witness may be offered free for fourteen days, once per Apple ID. You take it as a free, one-time in-app purchase through Apple: nothing is charged, then or later, and nothing renews. The fourteen days are counted from that purchase. When they end, the features of the full witness close unless you buy it; your fasts, weights, rest days and cycle records stay on your device, as before.
+From hæl 5.0, the full witness is offered in three forms, each bought through Apple with your Apple ID:
+
+- **a yearly subscription**, which may begin with a free trial of fourteen days for those Apple finds eligible;
+- **a monthly subscription**;
+- **a one-time purchase**, which does not renew.
+
+The price of each, in your currency, is shown in the app and on Apple's purchase sheet before you buy.
+
+**Subscriptions renew automatically.** Payment is charged to your Apple ID when you confirm the purchase or, with a free trial, when the trial ends. A subscription renews for the same period and price unless it is cancelled at least 24 hours before the current period ends, and your Apple ID is charged for the renewal within the 24 hours before that period ends. You can turn off automatic renewal or cancel at any time in your Apple ID's subscription settings (on iPhone: Settings, your name, Subscriptions); cancelling takes effect at the end of the period already paid for. If you cancel during a free trial, nothing is charged. If a price changes, Apple tells you before it applies to you.
+
+When a subscription or free trial ends without renewing, the features of the full witness close. Your fasts, weights, rest days and cycle records stay on your device and in your iCloud, as before.
+
+Earlier purchases are kept. If you bought the full witness once, in any version, it stays unlocked on every device signed in to the same Apple ID, and it can be restored. Between hæl 4.5 and 5.0, the full witness was also offered free for fourteen days, once per Apple ID, as a free one-time purchase that charged nothing and did not renew.
+
+Purchases and subscriptions are processed by Apple under its terms. Refunds are requested from and handled by Apple under its refund policy.
 
 ## Intellectual property
 
