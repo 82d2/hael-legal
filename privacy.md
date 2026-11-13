@@ -76,7 +76,7 @@ TelemetryDeck identifies an install only by an anonymized, hashed identifier. It
 
 ## Purchases (Apple and RevenueCat)
 
-The full experience is bought once or, from hæl 5.0, kept as a yearly or monthly subscription, always through Apple. hæl never sees or stores your payment information.
+From hæl 5.0 the full experience is a yearly or monthly subscription; earlier versions sold it as a one-time purchase. Either way it is bought through Apple. hæl never sees or stores your payment information.
 
 hæl uses RevenueCat to verify purchases and restore them across devices. RevenueCat receives:
 
