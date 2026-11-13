@@ -24,10 +24,11 @@ Fasting carries health risks. Consult a qualified healthcare provider before beg
 
 "The full witness" unlocks additional features in hæl. The fasting timer, the log, rest days and the daily greeting are free and stay free.
 
-From hæl 5.0, the full witness is offered as a subscription, bought through Apple with your Apple ID:
+From hæl 5.0, the full witness is offered in three forms, each bought through Apple with your Apple ID:
 
-- **yearly**, which may begin with a free trial of fourteen days for those Apple finds eligible;
-- **monthly**.
+- **a yearly subscription**, which may begin with a free trial of fourteen days for those Apple finds eligible;
+- **a monthly subscription**;
+- **a one-time purchase**, offered in the app's settings, which does not renew.
 
 The price of each, in your currency, is shown in the app and on Apple's purchase sheet before you buy.
 
@@ -35,7 +36,7 @@ The price of each, in your currency, is shown in the app and on Apple's purchase
 
 When a subscription or free trial ends without renewing, the features of the full witness close. Your fasts, weights, rest days and cycle records stay on your device and in your iCloud, as before.
 
-Earlier purchases are kept. Versions before 5.0 also offered the full witness as a one-time purchase, which does not renew; if you bought it, it stays unlocked on every device signed in to the same Apple ID, and it can be restored. Between hæl 4.5 and 5.0, the full witness was also offered free for fourteen days, once per Apple ID, as a free one-time purchase that charged nothing and did not renew.
+A one-time purchase, in any version, stays unlocked on every device signed in to the same Apple ID, and it can be restored. Between hæl 4.5 and 5.0, the full witness was also offered free for fourteen days, once per Apple ID, as a free one-time purchase that charged nothing and did not renew.
 
 Purchases and subscriptions are processed by Apple under its terms. Refunds are requested from and handled by Apple under its refund policy.
 
