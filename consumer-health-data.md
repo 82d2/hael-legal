@@ -30,7 +30,7 @@ On your device, in your own iCloud account if iCloud is enabled, on your paired 
 
 ## Sharing and sale
 
-hæl does not sell consumer health data. Your cycle, weight, fasting, and heart rate records are not shared with anyone. To measure how the app is used, the analytics provider named in the main privacy policy (TelemetryDeck) receives, under a pseudonymous install identifier, that a fast began, was completed, or ended early, that a rest day or a weight was recorded, and that Apple Health was connected, each with its time. It never receives how long a fast was, what a weight was, period dates, cycle phases, or heart rate. TelemetryDeck processes this on our behalf as a service provider, only for that purpose; it is never sold, and never used for advertising. The purchase provider (RevenueCat) receives no consumer health data.
+hæl does not sell consumer health data. Your cycle, weight, fasting, and heart rate records are not shared with anyone. To count how the app is used in total, the analytics provider named in the main privacy policy (TelemetryDeck) receives that a fast began, was completed, or ended early, that a rest day or a weight was recorded, and that Apple Health was connected, each with its time and a new random identifier, so it can't be tied to an install or a person (from hæl 5.0.1). It never receives how long a fast was, what a weight was, period dates, cycle phases, or heart rate. TelemetryDeck processes this on our behalf as a service provider; it is never sold, and never used for advertising. The purchase provider (RevenueCat) receives no consumer health data.
 
 hæl does not collect location data and does not use geofencing.
 
