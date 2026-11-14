@@ -4,7 +4,7 @@
 
 hæl is made by KI-GEN Studios LLC. This policy describes what the app stores, where it goes, and who else handles any of it.
 
-In short: your fasting, cycle, and weight data stays with you, on your devices, in your own iCloud account, and in Apple Health. Two outside services are involved. TelemetryDeck receives usage signals (what was used, and when; never what was written), most under a pseudonymous install identifier and those about fasting, weight, or Apple Health under none, and RevenueCat verifies purchases and passes a record of each purchase to TelemetryDeck under the same identifier. Neither receives your fasting, cycle, or weight records: no durations, weights, period dates, phases, or anything from Apple Health.
+In short: your fasting, cycle, and weight data stays with you, on your devices, in your own iCloud account, and in Apple Health. Two outside services are involved. TelemetryDeck receives usage signals (what was used, and when; never what was written), under a pseudonymous install identifier; from hæl 5.0.1, nothing about fasting, weight, or Apple Health is sent at all, and RevenueCat verifies purchases and passes a record of each purchase to TelemetryDeck under the same identifier. Neither receives your fasting, cycle, or weight records: no durations, weights, period dates, phases, or anything from Apple Health.
 
 ---
 
@@ -58,7 +58,7 @@ HealthKit data is never sent to KI-GEN Studios LLC, TelemetryDeck, RevenueCat, o
 
 hæl uses TelemetryDeck to understand how the app is used, so it can be made easier to use and worth keeping. It sends events, each with the time it happened. An event says that something happened, never its contents: not how long a fast was, what a weight was, which phase of the cycle, or anything from Apple Health.
 
-Events about using the app (a session started, a page or letter was opened, a purchase page was shown, something was shared) are sent under the install's pseudonymous identifier, so they can be counted per install. Events about fasting, weight, or Apple Health (a fast began, was completed, ended early, was abandoned, edited, or set for later; a rest day or a weight was recorded; Apple Health was connected; the cycle's prediction was opened) are sent with a new random identifier each time and no session, so they can be counted only in total and never tied to an install or a person (from hæl 5.0.1). Some events carry a few details:
+Events about using the app (a session started, a page or letter was opened, a purchase page was shown, something was shared) are sent under the install's pseudonymous identifier, so they can be counted per install. From hæl 5.0.1, events about fasting, weight, or Apple Health (that a fast began, was completed, ended early, was abandoned, edited, or set for later; that a rest day or a weight was recorded; that Apple Health was connected; that the cycle's prediction was opened) are not sent at all: the app counts them on the phone, for its own pages, and they stay there. Before 5.0.1 they were sent as events, with their time and no contents, under the install's identifier. Some events carry a few details:
 
 - days since the app was last opened
 - consecutive-day open streak
