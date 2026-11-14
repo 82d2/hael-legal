@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**hæl** — last updated November 13, 2026
+**hæl** — last updated November 14, 2026
 
 hæl is made by KI-GEN Studios LLC. This policy describes what the app stores, where it goes, and who else handles any of it.
 
@@ -69,6 +69,7 @@ hæl uses TelemetryDeck to understand how the app is used. It sends events such 
 - when hæl asks whether it may send notes, that the question was shown, and whether notes were allowed, refused, or put off for later (from hæl 4.5.3)
 - from the fifth edition of hæl (5.0): that the letters were opened; which kind of Monday letter was opened (the full letter, the first letter given whole, or the shorter letter); and, for the card that shares the hour of a fast, that it was opened or shared, and whether it was offered after a screenshot or when the fast came full circle. hæl learns that a screenshot was taken only from iOS's notice, never reads the screenshot, and sends no hours or names with these events
 - from the fifth edition of hæl (5.0), the purchase page can also be the one shown after the first fast of twelve hours or more, or the morning before the fourteen days close
+- from hæl 5.0.1: each time a purchase page is shown, which page it was (the last page of onboarding, the purchase page, the letter at the end of the fourteen days, the morning before they close, the page in settings that offers the one-time purchase, or the page after the first fast of twelve hours or more), so we can see which pages lead to the full experience
 
 TelemetryDeck also receives purchase events for hæl from RevenueCat (see below): for example, that the full experience was bought, restored, transferred, or refunded, and from the fifth edition of hæl (5.0) that a subscription or its free trial started, renewed, was cancelled, or ended. Each event carries the product, its price and currency, the App Store country, Apple's transaction ID, RevenueCat's random app user ID, and whether the device has been asked for tracking permission (hæl never asks). These arrive under the same hashed identifier as the usage signals, so we can see how many people who use the app go on to buy it. They are sent by RevenueCat's servers, not by the app.
 
